@@ -1,4 +1,3 @@
-@import 'variables';
 
 @mixin background-color($opacity: 1) {
   background-color: rgba($color-background, $opacity);

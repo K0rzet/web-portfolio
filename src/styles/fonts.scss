@@ -1,0 +1,22 @@
+@import 'variables';
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../assets/fonts/GothamPro.woff2") format("woff2");
+  font-weight: $font-weight-normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../assets/fonts/GothamPro-Bold.woff2") format("woff2");
+  font-weight: $font-weight-bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../assets/fonts/GothamPro-Black.woff2") format("woff2");
+  font-weight: $font-weight-black;
+  font-style: normal;
+}

@@ -1,0 +1,39 @@
+@import "@/styles/variables";
+@import "@/styles/mixins";
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+//   margin-bottom: 1.5rem;
+
+  .toggle {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+    border: none;
+    @include background-color(0);
+
+    &:hover, &:focus {
+      opacity: 1;
+      outline: none;
+    }
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      @include font-color;
+    }
+  }
+
+  .collapsed {
+    margin: 0 auto;
+    width: 3rem;
+    height: 3rem;
+  }
+}

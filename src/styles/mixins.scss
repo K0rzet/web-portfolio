@@ -1,0 +1,39 @@
+@import 'variables';
+
+@mixin background-color($opacity: 1) {
+  background-color: rgba($color-background, $opacity);
+}
+
+@mixin accent-color {
+  color: $color-accent;
+}
+
+@mixin font-color {
+  color: $color-font;
+}
+
+@mixin gotham-pro {
+  font-family: $font-family-base;
+}
+
+@mixin font-size($size: "base") {
+  @if $size == "sm" {
+    font-size: $font-size-sm;
+  } @else if $size == "base" {
+    font-size: $font-size-base;
+  } @else if $size == "lg" {
+    font-size: $font-size-lg;
+  }
+}
+
+@mixin font-weight($weight: "normal") {
+  @if $weight == "normal" {
+    font-weight: $font-weight-normal;
+  } @else if $weight == "medium" {
+    font-weight: $font-weight-medium;
+  } @else if $weight == "bold" {
+    font-weight: $font-weight-bold;
+  } @else if $weight == "black" {
+    font-weight: $font-weight-black;
+  }
+}

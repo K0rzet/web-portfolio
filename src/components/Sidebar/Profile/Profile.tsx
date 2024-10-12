@@ -1,5 +1,5 @@
 import styles from "./Profile.module.scss";
-import profile from "@/assets/images/profile.png";
+import profile from "/images/profile.png";
 
 const Profile = () => {
   return (

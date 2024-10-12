@@ -26,7 +26,7 @@ export const PORTFOLIO: IPortfolioCard[] = [
       "Nginx",
       "PM2",
     ],
-    imageUrl: "src/assets/images/cinema-project.jpg",
+    imageUrl: "/images/cinema-project.jpg",
     description:
       "Онлайн Кинотеатр - это платформа для просмотра фильмов онлайн. Это полнофункциональное приложение, позволяющее пользователям смотреть фильмы в интернете.",
     shortDescription: "Смотрите фильмы онлайн в любое время",
@@ -40,7 +40,7 @@ export const PORTFOLIO: IPortfolioCard[] = [
   {
     title: "Amonic Airlines",
     stack: ["React.js", "SCSS", "Nest.js"],
-    imageUrl: "src/assets/images/amonic-project.png",
+    imageUrl: "/images/amonic-project.png",
     description:
       "Amonic Airlines - это платформа для бронирования авиабилетов. Это полнофункциональное приложение, позволяющее пользователям бронировать рейсы.",
     shortDescription: "Удобная система бронирования рейсов",
@@ -54,7 +54,7 @@ export const PORTFOLIO: IPortfolioCard[] = [
   {
     title: "Planner",
     stack: ["Next.js", "SCSS", "TailwindCSS", "Nest.js"],
-    imageUrl: "src/assets/images/planner-project.png",
+    imageUrl: "/images/planner-project.png",
     description:
       "Планировщик - это платформа для планирования мероприятий. Это полнофункциональное приложение, позволяющее пользователям планировать события.",
     shortDescription: "Организуйте события без усилий",
@@ -68,7 +68,7 @@ export const PORTFOLIO: IPortfolioCard[] = [
   {
     title: "Олимп",
     stack: ["React.js", "SCSS", "TailwindCSS", "Django"],
-    imageUrl: "src/assets/images/olimp-project.png",
+    imageUrl: "/images/olimp-project.png",
     description:
       "Планировщик - это платформа для планирования мероприятий. Это полнофункциональное приложение, позволяющее пользователям планировать события.",
     shortDescription: "Организуйте события без усилий",
@@ -82,7 +82,7 @@ export const PORTFOLIO: IPortfolioCard[] = [
   {
     title: "Meme Factory",
     stack: ["React.js", "SCSS", "TailwindCSS", "Django"],
-    imageUrl: "src/assets/images/meme-factory-project.jpg",
+    imageUrl: "/images/meme-factory-project.jpg",
     description:
       "Планировщик - это платформа для планирования мероприятий. Это полнофункциональное приложение, позволяющее пользователям планировать события.",
     shortDescription: "Организуйте события без усилий",

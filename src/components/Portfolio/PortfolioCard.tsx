@@ -29,7 +29,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
         <h3>{title}</h3>
         <p>{shortDescription}</p>
         <div className={styles.portfolioCard__stack}>
-          {stack.slice(0, 4).map((item) => (
+          {stack.slice(0, 3).map((item) => (
             <span key={item}>{item}</span>
           ))}
         </div>

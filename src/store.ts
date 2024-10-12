@@ -7,7 +7,7 @@ export const isCollapsedAtom = atom(
     ? JSON.parse(localStorage.getItem(localStorageKey) || "false")
     : false,
 
-  (get, set, newValue: boolean) => {
+  (_get, set, newValue: boolean) => {
     set(isCollapsedAtom, newValue);
     localStorage.setItem(localStorageKey, JSON.stringify(newValue));
   }

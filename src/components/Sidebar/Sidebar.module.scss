@@ -19,34 +19,21 @@
   box-sizing: border-box;
   padding-right: 10px; // Компенсация ширины скроллбара
 
-  // Стили для WebKit-браузеров (Chrome, Safari, новые версии Edge)
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+
   &::-webkit-scrollbar {
     width: 8px;
   }
 
   &::-webkit-scrollbar-track {
-    background: transparent;
+    background-color: transparent;
   }
 
   &::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     border: 2px solid $color-content-background;
-  }
-
-  // Стили для Firefox
-  scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
-
-  // Общие стили скроллбара (поддерживаются в новых версиях браузеров)
-  &::-webkit-scrollbar,
-  & {
-    scrollbar-width: thin;
-  }
-
-  &::-webkit-scrollbar-thumb,
-  & {
-    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
   }
 
   > a:active {

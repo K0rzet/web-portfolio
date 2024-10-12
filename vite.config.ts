@@ -10,4 +10,15 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `
+          @import "@/styles/variables.scss";
+          @import "@/styles/mixins.scss";
+          @import "@/styles/fonts.scss";
+        `,
+      },
+    },
+  },
 })
